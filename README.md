@@ -4,13 +4,18 @@ In short, after delineation, for each ECG signal, at least one cardiac cycle con
 
 
 This package requires the installation of:
+
 Swiss Army Knife package for python: 
 https://github.com/guillermo-jimenez/sak
+
 CVX, a Matlab-based convex modeling framework:
 http://cvxr.com
-cvx
+
+
 
 Parts of the following packages have been used for the ellaboration of ECGtoVAR repository:
 Zheng, J., Zhang, J., Danioko, S. et al. A 12-lead electrocardiogram database for arrhythmia research covering more than 10,000 patients. Sci Data 7, 48 (2020): https://github.com/zheng120/ECGDenoisingTool
+
 Jimenez-Perez, G., Acosta, J., Alcaine, A., & Camara, O. (2021). Generalizing electrocardiogram delineation: Training convolutional neural networks with synthetic data augmentation: https://github.com/guillermo-jimenez/ECGDelNet
+
 S. Sanchez-Martinez, N. Duchateau, T. Erdei, A.G. Fraser, B.H. Bijnens, and G. Piella. Characterization of myocardial motion patterns by unsupervised multiple kernel learning. Medical Image Analysis, 35:70-82, 2017: https://github.com/bcnmedtech/unsupervised_multiple_kernel_learning
