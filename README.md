@@ -8,6 +8,9 @@ In short, after delineation, for each ECG signal, at least one cardiac cycle con
 This is the result of my end-of-master thesis, and this project wouldn't have been possible without the collaboration of Guillermo Jiménez-Pérez. For  a detailed explanation on the steps involved in the pipeline, see the thesis document in the following link:
 https://docs.google.com/document/d/11uOL-1D3-hZ3KOdIz8jXvwOl58944teF/edit?usp=sharing&ouid=117927211295833133548&rtpof=true&sd=true
 
+### One or multiple beats per signal?
+The two strategies result from the fact that MKL ought to be provided with as much morphological beat diversity as possible to have well-informed embedding spaces. Given your computational capacity for MKL to take in N cardiac cycles, if the dataset contains approximately N signals, picking only the most representative beat per signal is the goal (one beat per signal strategy). On the contrary, if the dataset contains fewer than N signals, selecting a subset of multiple morphologically-rich beats per signal is possible, in addition to the single most representative beat of the signal (multiple beats per signal strategy). After running the MKL and obtaining a more informed embedding thanks to higher beat variability, only the embeddings of representative beats may be kept, thus getting one embedding per signal.
+
 ## Requirments
 To run this project, installation of the following packages is required:
 
