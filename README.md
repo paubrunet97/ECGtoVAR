@@ -1,7 +1,12 @@
 # ECGtoVAR
 
 ## General info
-In short, after delineation, for each ECG signal, at least one cardiac cycle containing representative P, QRS, and ST periods of the signal’s cardiac cycles was selected. On those beats, MKL was run on the whole signal (PP’) and on its isolated segments (P, QRS, QT, ST, and T) to identify the more salient patterns of morphological change concerning the whole cardiac cycle or its constituent segments. An embedding is obtained for each MKL run, with coordinates quantifying the automatically-extracted morphological features of each beat. In the end, one embedding coordinate per patient is kept in each MKL embedding: on those coordinates, the correlation of clinical variables with morphological features of the ECG can be studied. Additionally, using K-Means, it is possible to cluster patients into well-differentiated ECG morphological phenogroups.
+ECGtoVAR is a pipeline for quantification of the main patterns of morphological variability within a 12-lead ECG dataset, resulting in the automatic feature extraction of its most pointant characteristics and possibilitating its clustering into morphological phenogroups.
+
+In short, after delineation, for each ECG signal, at least one cardiac cycle containing representative P, QRS, and ST periods of the signal’s cardiac cycles is selected. On those beats, a dimensionality reduction algorithm is run on the whole signal (PP’) and on its isolated segments (P, QRS, QT, ST, and T) to identify the more salient patterns of morphological change, concerning the whole cardiac cycle or its constituent segments, respectively. An embedding is obtained for each MKL run, with coordinates quantifying the automatically-extracted morphological features of each beat. In the end, one embedding coordinate per patient is kept in each MKL embedding: on those coordinates, the correlation of clinical variables with morphological features of the ECG can be studied. Additionally, using K-Means, it is possible to cluster patients into well-differentiated ECG morphological phenogroups.
+
+This is the result of my end-of-master thesis, and this project wouldn't have been possible without the collaboration of Guillermo Jiménez-Pérez. For  a detailed explanation on the steps involved in the pipeline, see the thesis document in the following link:
+https://docs.google.com/document/d/11uOL-1D3-hZ3KOdIz8jXvwOl58944teF/edit?usp=sharing&ouid=117927211295833133548&rtpof=true&sd=true
 
 ## Requirments
 To run this project, installation of the following packages is required:
