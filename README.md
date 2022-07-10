@@ -21,7 +21,7 @@ https://github.com/guillermo-jimenez/sak
 http://cvxr.com
 
 ### Execution
-The C scripts (computeENERGY.c, computeSWA.c and computeSWB.c) need to be compiled in MATLAB. To do so just write in the Matlab command line: 
+The C scripts (projL1inf.c, computeENERGY.c, computeSWA.c and computeSWB.c) need to be compiled in MATLAB. To do so just write in the MATLAB command line: 
 
 ```javascript
 mex computeENERGY
