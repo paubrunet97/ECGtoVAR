@@ -1,4 +1,4 @@
-# ECGtoVAR: Quantification of ECG dataset's morphological patterns
+# ECGtoVAR: Quantification and phenotyping of ECG dataset's morphological patterns
 
 ## General info
 ECGtoVAR is a pipeline for quantification of the main patterns of morphological variability within a 12-lead ECG dataset, resulting in the automatic feature extraction of its most pointant characteristics and possibilitating its clustering into morphological phenogroups.
