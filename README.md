@@ -17,6 +17,9 @@ To run this project, installation of the following packages is required:
 * Swiss Army Knife Package for Python: 
 https://github.com/guillermo-jimenez/sak
 
+* ECGDelNET models [soo to be released at]:
+https://github.com/guillermo-jimenez
+
 * CVX, a MATLAB-based convex modeling framework:
 http://cvxr.com
 
