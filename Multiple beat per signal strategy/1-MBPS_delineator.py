@@ -122,7 +122,7 @@ def predict(signal, model, window_size=2048, stride=256, threshold_ensemble: flo
 # Load models
 models = []
 for i in tqdm(range(5)):
-    path = os.path.join("_Intermediates/ECGDelNet_models", f'model.{i + 1}')
+    path = os.path.join("Directory with ECGDelNet models", f'model.{i + 1}')
     models.append(torch.load(path, pickle_module=dill).eval().float())
 
 # Load signalpaths
